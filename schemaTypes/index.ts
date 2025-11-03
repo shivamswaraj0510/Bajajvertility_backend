@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-import post from "./demo"
-export const schemaTypes = [post]
-=======
-import Post from './post';
-export const schemaTypes = [Post]
->>>>>>> 0496f61a524d69cdf089c5d918e6b4f963f97895
+import Header from './Header';
+import cardCarousel from './cardCarousel';
+import excCardCarousel from './excCardCarousel';
+import thirdSectionSingleCarousel from './thirdSectionSingleCarousel';
+import HpCardCarousel from './HpCardCarousel';
+import excCard from './excCard';
+export const schemaTypes = [Header, excCard, cardCarousel, excCardCarousel, thirdSectionSingleCarousel, HpCardCarousel]
