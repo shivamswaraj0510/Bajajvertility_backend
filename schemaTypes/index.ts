@@ -9,7 +9,9 @@ import section from "./section"
 import carouselHeading from "./carousel-heading"
 import carousel from "./carousel"
 import delighted from "./delighted-patients";
+import findDoctors_heroBanner from './findDoctors_heroBanner';
+import cascadingCarousel from './cascadingCarousel';
 
 
 
-export const schemaTypes = [Header, excCard, cardCarousel, excCardCarousel, thirdSectionSingleCarousel, HpCardCarousel, footer, section, carouselHeading, carousel, delighted]
+export const schemaTypes = [Header, excCard, cardCarousel, excCardCarousel, thirdSectionSingleCarousel, HpCardCarousel, footer, section, carouselHeading, carousel, delighted, cascadingCarousel, findDoctors_heroBanner,]
