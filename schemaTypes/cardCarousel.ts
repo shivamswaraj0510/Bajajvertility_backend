@@ -50,6 +50,16 @@ export default defineType({
                             type: 'string'
                         }),
                         defineField({
+                            name: 'title',
+                            title: 'Title',
+                            type: 'string'
+                        }),
+                        defineField({
+                            name: 'subTitle',
+                            title: 'Sub-Title',
+                            type: 'string'
+                        }),
+                        defineField({
                             name: 'order',
                             title: 'Order',
                             type: 'number'
