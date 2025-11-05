@@ -2,16 +2,16 @@ import { defineType, defineField } from 'sanity'
 
 export default defineType({
     name: 'cardCarousel',
-    title: 'Card Carousel',
+    title: 'Card Carousel with star rating',
     type: 'document',
     fields: [
-       // Section heading shown above the carousel
-           defineField({
-             name: 'heading',
-             title: 'Heading',
-             type: 'string',
-             description: 'Main section heading shown above the carousel'
-           }),
+        // Section heading shown above the carousel
+        defineField({
+            name: 'heading',
+            title: 'Heading',
+            type: 'string',
+            description: 'Main section heading shown above the carousel'
+        }),
         defineField({
             name: 'description',
             title: 'Description',
@@ -20,19 +20,19 @@ export default defineType({
             description:
                 'Introductory text paragraph shown below the heading'
         }),
-           // Optional subheading line
-           defineField({
-             name: 'subheading',
-             title: 'Subheading',
-             type: 'string',
-               description: 'Secondary line below the description section'
-           }),
+        // Optional subheading line
+        defineField({
+            name: 'subheading',
+            title: 'Subheading',
+            type: 'string',
+            description: 'Secondary line below the description section'
+        }),
 
         defineField({
             name: 'cards',
             title: 'Cards',
             type: 'array',
-            of: [ 
+            of: [
                 {
                     type: 'object',
                     name: 'cardItem',
@@ -73,7 +73,7 @@ export default defineType({
                             validation: (Rule) =>
                                 Rule.min(0)
                                     .max(5)
-                                    .precision(1) 
+                                    .precision(1)
                         })
                     ],
                 }

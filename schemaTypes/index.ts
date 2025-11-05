@@ -11,7 +11,8 @@ import carousel from "./carousel"
 import delighted from "./delighted-patients";
 import findDoctors_heroBanner from './findDoctors_heroBanner';
 import cascadingCarousel from './cascadingCarousel';
+import doctorCard from './doctorCard';
 
 
 
-export const schemaTypes = [Header, excCard, cardCarousel, excCardCarousel, thirdSectionSingleCarousel, HpCardCarousel, footer, section, carouselHeading, carousel, delighted, cascadingCarousel, findDoctors_heroBanner,]
+export const schemaTypes = [Header, excCard, cardCarousel, excCardCarousel, thirdSectionSingleCarousel, HpCardCarousel, footer, section, carouselHeading, carousel, delighted, cascadingCarousel, findDoctors_heroBanner,doctorCard]
