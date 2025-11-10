@@ -12,7 +12,9 @@ import delighted from "./delighted-patients";
 import findDoctors_heroBanner from './findDoctors_heroBanner';
 import cascadingCarousel from './cascadingCarousel';
 import doctorCard from './doctorCard';
+import careersHeroBanner from './careersHeroBanner';
+import careersBlogs from './careersBlogs';
+import careersHrmission from './careersHrmission';
+import careersOpportunity from './careersOpportunity';
 
-
-
-export const schemaTypes = [Header, excCard, cardCarousel, excCardCarousel, thirdSectionSingleCarousel, HpCardCarousel, footer, section, carouselHeading, carousel, delighted, cascadingCarousel, findDoctors_heroBanner,doctorCard]
+export const schemaTypes = [Header, excCard, cardCarousel, excCardCarousel, thirdSectionSingleCarousel, HpCardCarousel, footer, section, carouselHeading, carousel, delighted, cascadingCarousel, findDoctors_heroBanner, doctorCard, careersHeroBanner, careersBlogs, careersHrmission, careersOpportunity]
