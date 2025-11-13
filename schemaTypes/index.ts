@@ -9,12 +9,29 @@ import section from "./section"
 import carouselHeading from "./carousel-heading"
 import carousel from "./carousel"
 import delighted from "./delighted-patients";
-import findDoctors_heroBanner from './findDoctors_heroBanner';
-import cascadingCarousel from './cascadingCarousel';
-import doctorCard from './doctorCard';
-import careersHeroBanner from './careersHeroBanner';
-import careersBlogs from './careersBlogs';
-import careersHrmission from './careersHrmission';
-import careersOpportunity from './careersOpportunity';
+import comp1 from "././about-us/comp1"
+import comp2 from "././about-us/comp2"
+import compmain from './about-us/compmain';
+import healthpackagemain from './healthPackage/healthpackagemain';
+import HealthpackageC1 from './healthPackage/HealthpackageC1';
+import healthpackagecard from './healthPackage/healthpackagecard';
 
-export const schemaTypes = [Header, excCard, cardCarousel, excCardCarousel, thirdSectionSingleCarousel, HpCardCarousel, footer, section, carouselHeading, carousel, delighted, cascadingCarousel, findDoctors_heroBanner, doctorCard, careersHeroBanner, careersBlogs, careersHrmission, careersOpportunity]
+export const schemaTypes = [
+  comp1,
+  comp2,
+  compmain,
+  healthpackagemain,
+    HealthpackageC1,
+healthpackagecard,
+  Header,
+  excCard,
+  cardCarousel,
+  excCardCarousel,
+  thirdSectionSingleCarousel,
+  HpCardCarousel,
+  footer,
+  section,
+  carouselHeading,
+  carousel,
+  delighted,
+]
