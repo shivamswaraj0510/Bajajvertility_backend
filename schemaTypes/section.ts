@@ -24,7 +24,7 @@ export default {
                         {
                             name: 'redirectionLink',
                             title: 'Redirection Link',
-                            type: 'url',
+                            type: 'string',
                         },
                     ],
                 }
